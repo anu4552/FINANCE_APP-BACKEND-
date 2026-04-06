@@ -83,6 +83,15 @@ ADMIN_PASSWORD=
 ```
 
 ## DEMO (Screenshort)
+---
+## Swagger UI
+<img width="915" height="749" alt="Screenshot 2026-04-06 230519" src="https://github.com/user-attachments/assets/431d6ba3-05c2-4693-89db-fe726438bf4e" />
+
+## Schema
+<img width="1346" height="369" alt="Screenshot 2026-04-06 230538" src="https://github.com/user-attachments/assets/0e10d77d-5083-4ac3-965e-b26a43a6f87f" />
+
+
+---
  ## ADMIN 
  # 1.Register
  <img width="896" height="750" alt="Screenshot 2026-04-06 221136" src="https://github.com/user-attachments/assets/0cfc1627-ad22-494e-8343-33465f1ecaec" />
