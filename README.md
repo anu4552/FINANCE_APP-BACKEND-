@@ -9,8 +9,8 @@ This is a backend API built using FastAPI for managing financial records, user r
 
 ## ⚙️ Tech Stack
 
-* FastAPI
-* MongoDB Atlas
+* FastAPI(Framework)
+* MongoDB Atlas(database)
 * Python
 
 ## 🔐 Features
@@ -20,6 +20,25 @@ This is a backend API built using FastAPI for managing financial records, user r
 * CRUD operations for financial records
 * Filtering by date, category, type
 * Secure API endpoints
+
+## 📁 Project Structure
+
+```
+finance-app-backend/
+│
+├── main.py
+├── database.py
+├── essentials.txt
+├── .env
+├── dependencies.py
+├── schemas.py
+├── auth.py
+│
+├── routes/
+│   ├── user.py
+│   ├── records.py
+│   └── dashboards.py
+```
 
 ## 📦 Installation
 
@@ -109,10 +128,12 @@ ADMIN_PASSWORD=
 ## ANALYST
 
 # 1.Register
- <img width="896" height="750" alt="Screenshot 2026-04-06 221136" src="https://github.com/user-attachments/assets/0cfc1627-ad22-494e-8343-33465f1ecaec" />
+ <img width="877" height="746" alt="Screenshot 2026-04-06 225040" src="https://github.com/user-attachments/assets/dff5d186-6370-4e56-ae62-a0b3211a6182" />
+
 
  # 2. Login 
- <img width="883" height="707" alt="Screenshot 2026-04-06 221221" src="https://github.com/user-attachments/assets/70faab1d-abcb-4fa3-86c8-dc9ce9f9506f" />
+ <img width="888" height="708" alt="Screenshot 2026-04-06 225134" src="https://github.com/user-attachments/assets/c26bfdf5-488f-4fea-8171-878b5ba3571c" />
+
 
  # 3. Read Records
 
@@ -139,25 +160,24 @@ ADMIN_PASSWORD=
 ## VIEWER
 
 # 1.Register
- <img width="904" height="748" alt="Screenshot 2026-04-06 215906" src="https://github.com/user-attachments/assets/7cd31729-04da-40f5-84af-2d014631eed3" />
+ <img width="882" height="728" alt="Screenshot 2026-04-06 224733" src="https://github.com/user-attachments/assets/6bd1ed3b-b367-4328-b835-94151fc9a5e3" />
 
 
  # 2. Login 
- <img width="886" height="702" alt="Screenshot 2026-04-06 220824" src="https://github.com/user-attachments/assets/7f892382-eb46-479e-9da9-34561ab08ea3" />
+ <img width="884" height="707" alt="Screenshot 2026-04-06 224927" src="https://github.com/user-attachments/assets/121771c4-70b7-4bac-8a93-3f49f49e4872" />
 
 
-
-# 7. Summary (DASHBOARD)
+# 3. Summary (DASHBOARD)
 <img width="1432" height="723" alt="Screenshot 2026-04-06 220237" src="https://github.com/user-attachments/assets/aa6433ad-b579-4b26-a430-006ad21e7fec" />
 
-# 8. category-summary
+# 4. category-summary
 
 <img width="1422" height="858" alt="Screenshot 2026-04-06 220304" src="https://github.com/user-attachments/assets/249d77b7-f3ec-49aa-a69b-78b5496c782d" />
 
-# 9. recents 
+# 5. recents 
 <img width="1423" height="861" alt="Screenshot 2026-04-06 220401" src="https://github.com/user-attachments/assets/60b56388-d586-44d7-b30d-395411a6417d" />
 
-# 10. Monthly-treands
+# 6. Monthly-treands
 <img width="1329" height="849" alt="Screenshot 2026-04-06 220449" src="https://github.com/user-attachments/assets/67e9605c-dcef-4c19-83ea-5387fed2c75b" />
 
 
