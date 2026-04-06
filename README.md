@@ -24,7 +24,7 @@ This is a backend API built using FastAPI for managing financial records, user r
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/anu4552/FINANCE_APP-BACKEND-.git
 cd FINANCE_APP-BACKEND
 pip install -r requirements.txt
 ```
@@ -48,7 +48,7 @@ http://127.0.0.1:8000/docs
 Deployed on Render:
 
 ```
-https://your-app.onrender.com/docs
+https://finance-app-backend-50zx.onrender.com/docs#/
 ```
 
 ## 🔑 Environment Variables
@@ -63,7 +63,6 @@ ADMIN_EMAIL=
 ADMIN_PASSWORD=
 ```
 
-## 👤 Author
 
-Your Name
+
 
